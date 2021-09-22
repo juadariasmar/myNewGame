@@ -6,12 +6,14 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairWest, function (spri
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     info.changeLifeBy(1)
+    tiles.placeOnRandomTile(Tesoro, sprites.dungeon.floorLight2)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.floorLight3, function (sprite, location) {
     info.changeLifeBy(-1)
     tiles.placeOnRandomTile(Heroe, sprites.dungeon.stairLadder)
 })
 let Trampa: Sprite = null
+let Tesoro: Sprite = null
 let Heroe: Sprite = null
 Heroe = sprites.create(img`
     . . . . . . f f f f . . . . . . 
@@ -31,7 +33,7 @@ Heroe = sprites.create(img`
     . . . . . f f f f f f . . . . . 
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
-let Tesoro = sprites.create(img`
+Tesoro = sprites.create(img`
     . . . . . . . b b . . . . . . . 
     . . . . . . b d d b . . . . . . 
     . . . . . b d 5 5 d b . . . . . 
@@ -52,12 +54,10 @@ let Tesoro = sprites.create(img`
 controller.moveSprite(Heroe, 100, 100)
 info.setScore(0)
 info.setLife(3)
-info.startCountdown(15)
 scene.cameraFollowSprite(Heroe)
 tiles.setTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(Heroe, sprites.dungeon.stairLadder)
-tiles.placeOnRandomTile(Tesoro, sprites.dungeon.floorLight2)
-game.onUpdateInterval(500, function () {
+game.onUpdateInterval(2000, function () {
     Trampa = sprites.create(img`
         f f f f f f f f f f f f f f f f 
         f f f f f f f f f f f f f f f f 
