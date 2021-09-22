@@ -1,0 +1,35 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAxMDIwMjBjMDIwMjAyMDMwMjAyMDIwMjBjMDIwMjAzMDUwYTBhMGEwYTBhMGEwNDBhMGEwYTBhMGEwYTBhMDQwYjBhMGEwYTBlMGEwYTA0MGEwYTBhMGEwZTBhMGEwYzA1MGEwYTBhMGEwYTBhMDQwYTBhMGEwYTBhMGEwYTA0MDUwYTBhMGEwYTBhMGEwNDBhMGEwYTA3MDcwNzA3MDgwNTBhMGEwNzA3MDcwNzA4MGEwZTBhMGEwYTBhMGEwNDA1MGEwYTBhMGEwYTBhMDkwYTBhMGEwYTBhMGEwYTA0MDUwYTBlMGEwYTBlMGEwOTBhMGEwYTBhMGEwYTBhMGMwYzBhMGEwYTBhMGEwYTA5MGEwYTBhMDcwNzA3MDcwODA1MGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTA0MDUwYTBhMGEwYTA5MGEwYTBhMGEwNDBhMGEwYTBhMDQwNTBhMGEwYTBhMDkwYTBhMGUwYTA0MGEwYTBlMGEwYzA1MGEwZTBhMGEwOTBhMGEwYTBhMDQwYTBhMGEwYTA0MGMwYTBhMGEwYTA5MGEwZTBhMGEwNDBhMGEwYTBhMDQwNTBhMGEwYTBhMDkwYTBhMGEwYTA0MGEwYTBhMGEwNDA2MDcwNzA3MDcwODA3MDcwNzA3MDgwNzA3MGQwNzA4MjIyMjIyMjIyMjIyMjIyMjAyMDAwMDIwMDAwMDAwMjAwMDAwMDAyMDAwMDAwMDIwMDIwMDAwMjAwMDAwMDAyMDAyMDAwMDIwMDAyMDIyMjIwMjIwMjIyMjAwMDAwMDIwMDIwMDAwMjAwMDAwMDAyMDAyMDAwMDIwMDAwMDAwMjAwMjAwMDAyMDAwMjAyMjIyMDIwMDAwMDAwMDAwMDAyMDAyMDAyMDAwMDAwMjAwMjAwMjAwMjAwMDAwMDIwMDIwMDIwMDIwMDAwMDAyMDAyMDAyMDAyMDAwMDAwMjAwMjAwMjAwMjAwMDAwMDIwMDIwMjIyMjIyMjIyMjIyMDIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.greenOuterNorthWest",
+            "sprites.dungeon.greenOuterNorth0",
+            "sprites.dungeon.greenOuterNorthEast",
+            "sprites.dungeon.greenOuterEast0",
+            "sprites.dungeon.greenOuterWest0",
+            "sprites.dungeon.greenOuterSouthEast",
+            "sprites.dungeon.greenOuterSouth0",
+            "sprites.dungeon.greenOuterSouthWest",
+            "sprites.dungeon.greenOuterEast1",
+            "sprites.dungeon.floorLight2",
+            "sprites.dungeon.stairWest",
+            "sprites.dungeon.greenOuterNorth2",
+            "sprites.dungeon.stairLadder",
+            "sprites.dungeon.floorLight3"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
